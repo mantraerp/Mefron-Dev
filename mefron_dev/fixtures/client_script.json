@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Material Request",
+  "enabled": 1,
+  "modified": "2024-06-05 11:28:57.287245",
+  "module": null,
+  "name": "Material Request",
+  "script": "frappe.ui.form.on('Material Request', {\n    before_save(frm) {\n// \t      var main = [];\n//         frm.doc.items.forEach(function(child1) {\n//             if (child1.item_code) {\n//                 child1.custom_item_description=child1.item_name\n//             }\n//         });\n// \t\t// your code here\n// \t\trefresh_field(\"items\")\n\t}\n})\n\nfrappe.ui.form.on('Material Request Item', {\n\t\n\titem_code(frm) {\n\t      var main = [];\n        frm.doc.items.forEach(function(child1) {\n            console.log(child1.item_code)\n            if (child1.item_code) {\n                console.log(child1.item_code)\n                child1.custom_item_description=child1.item_name\n            }\n        });\n\t\t// your code here\n\t\trefresh_field(\"items\")\n\t}\n})",
+  "view": "Form"
+ }
+]

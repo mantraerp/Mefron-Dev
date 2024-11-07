@@ -265,10 +265,10 @@ fixtures = [
     "Letter Head",
     {"dt": "Report", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Print Format", "filters": [["module", "in", ["Mefron Dev"]]]},
-    {"dt": "Server Script", "filters": [["module", "in", ["Mefron Dev"]]]},
-    {"dt": "Client Script", "filters": [["module", "in", ["Mefron Dev"]]]},
+    {"dt": "Server Script"},
+    {"dt": "Client Script"},
     {"dt": "Property Setter", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Custom DocPerm",},
     {"dt": "Document Naming Rule"},
-    {"dt": "Role",},
+    {"dt": "Role"},
 ]
