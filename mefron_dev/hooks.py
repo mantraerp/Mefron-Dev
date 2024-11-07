@@ -259,11 +259,16 @@ override_whitelisted_methods = {
 # }
 
 fixtures = [
+    "Workflow",
+    "Workflow State",
+    "Workflow Action Master",
+    "Letter Head",
     {"dt": "Report", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Print Format", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Server Script", "filters": [["module", "in", ["Mefron Dev"]]]},
-    # {"dt": "Client Script", "filters": [["module", "in", ["Mefron Dev"]]]},
+    {"dt": "Client Script", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Property Setter", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Custom DocPerm",},
+    {"dt": "Document Naming Rule"},
     {"dt": "Role",},
 ]
