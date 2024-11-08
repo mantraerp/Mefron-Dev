@@ -12,6 +12,7 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/mefron_dev/css/mefron_dev.css"
 app_include_js = "/assets/mefron_dev/js/email_button.js"
+app_include_css = "bank_reconciliation_mantra.bundle.css"
 
 
 # include js, css files in header of web template
@@ -269,6 +270,9 @@ fixtures = [
     {"dt": "Client Script"},
     {"dt": "Property Setter", "filters": [["module", "in", ["Mefron Dev"]]]},
     {"dt": "Custom DocPerm",},
-    {"dt": "Document Naming Rule"},
+    # {"dt": "Document Naming Rule"},
     {"dt": "Role"},
 ]
+
+
+get_matching_queries = "mefron_dev.mefron_dev.doctype.bank_reconciliation_tool_mantra.bank_reconciliation_tool_mantra.get_matching_queries"

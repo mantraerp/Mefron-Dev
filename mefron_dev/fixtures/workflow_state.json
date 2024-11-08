@@ -47,15 +47,6 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-03-29 11:32:56.611534",
-  "name": "Initiated",
-  "style": "",
-  "workflow_state_name": "Initiated"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
   "icon": "remove",
   "modified": "2024-02-06 15:04:45.712812",
   "name": "Rejected",
@@ -79,6 +70,15 @@
   "name": "Reviewed",
   "style": "Info",
   "workflow_state_name": "Reviewed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-03-29 11:32:56.611534",
+  "name": "Initiated",
+  "style": "",
+  "workflow_state_name": "Initiated"
  },
  {
   "docstatus": 0,
